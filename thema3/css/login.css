@@ -1,0 +1,64 @@
+﻿.login {
+    width: 60%;
+    margin: auto;
+    margin-top: 8%;
+    background-color: #FFF;
+    border-radius: 15px;
+    padding: 10px;
+    border: 1px solid grey;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+    width: 111px;
+    height: 110px;
+    border-radius: 50%;
+}
+
+/*style of login*/
+.loginbox {
+    background-color: #157be7;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition-duration: 0.1s;
+    width: 70%;
+    border-radius: 5px;
+}
+
+/*hover on login*/
+.loginbox:hover {
+    background-color: #0454a4;
+    color: white;
+    box-shadow: 2px 10px 10px;
+}
+
+input[type=text], input[type=password] {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+@media screen and (max-width: 830px) {
+    .login {
+        margin-top: 20%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .login {
+        margin-top: 30%;
+    }
+}

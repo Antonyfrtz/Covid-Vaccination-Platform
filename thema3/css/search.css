@@ -1,0 +1,92 @@
+﻿h1{
+    text-align: center;
+}
+/*style of text inside boxes*/
+.column > p {
+    display: inline-block;
+    margin: 8px;
+}
+
+/*zoom on boxes*/
+.info:hover {
+    -ms-transform: scale(1.01); /* IE 9 */
+    -webkit-transform: scale(1.01); /* Safari 3-8 */
+    transform: scale(1.01);
+}
+
+/*style of boxes*/
+.info {
+    margin: auto;
+    background-color: #cde2f3;
+    min-width: 700px;
+    width: 700px;
+    min-height: 200px;
+    height: 200px;
+    border-radius: 10px;
+    padding: 0.01px;
+    transition: transform 0.5s;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 200px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.editbtn {
+    margin: 6px;
+    color: #212529;
+    background-color: #f8f9fa;
+    border: 1px solid transparent;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.375rem 0.75rem;
+    display: inline-block;
+    border-radius:5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.editbtn:hover {
+    background-color: #e2e6ea;
+}
+
+.fields {
+    background: transparent;
+    border: none;
+    outline-width: 0;
+    font-weight: bold;
+    font-size:14px;
+}
+
+.vaccinate {
+    background-color: #083474;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition-duration: 0.1s;
+    width: 210px;
+    border-radius: 5px;
+}
+
+.vaccinate:hover {
+    background: #06295c;
+}

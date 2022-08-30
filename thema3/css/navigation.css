@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    width:100%;
+    overflow-y:scroll
+}
+
+/*bar always on top, width the whole screen*/
+.bar {
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    background-color: #083474;
+    overflow: hidden;
+}
+
+/*style the links inside the bar*/
+.topnav a,button {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+/*links on hover*/
+.topnav a:hover {
+  background-color: #F0F8FF;
+  color: black;
+}
+
+/*active links*/
+.topnav a.active {
+    background-color: #046ec5;
+    color: white;
+}
+
+/*navigation list*/
+li{
+  list-style-type: none;
+  display:inline-block;
+}
